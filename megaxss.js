@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 request.onload = gimme;
-request.open('GET', 'http://paymentlink.mdcorpora.com')
+request.open('GET', 'https://paymentlink.mdcorpora.com')
 request.withCredentials = true;
 request.send();
 
